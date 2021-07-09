@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/ext_filament"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/7a64e63c537dcb36ac9d7cdaee0e50ef/ext_filament.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9fb200607cd65ed8ea08e8270a763c62/ext_filament-complete.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9cb0c95551ffa8ecaa5bd3ca5040ba0f/ext_filament-build.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9cb0c95551ffa8ecaa5bd3ca5040ba0f/ext_filament-configure.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9cb0c95551ffa8ecaa5bd3ca5040ba0f/ext_filament-download.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9cb0c95551ffa8ecaa5bd3ca5040ba0f/ext_filament-install.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9cb0c95551ffa8ecaa5bd3ca5040ba0f/ext_filament-mkdir.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9cb0c95551ffa8ecaa5bd3ca5040ba0f/ext_filament-patch.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9cb0c95551ffa8ecaa5bd3ca5040ba0f/ext_filament-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext_filament"
+		],
+		"name" : "ext_filament"
+	}
+}

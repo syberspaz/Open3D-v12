@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\cdb8037b239039d2df96d15ed2a90f16\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{77BEE3CD-377F-399B-9DB0-2D734A2931F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

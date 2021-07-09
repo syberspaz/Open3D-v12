@@ -1,0 +1,4 @@
+D:/VsprojectsOnD/Open3D/Open3D/build/ippicv/src/ext_ippicv-build/CMakeFiles/INSTALL.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/ippicv/src/ext_ippicv-build/CMakeFiles/ippiw.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/ippicv/src/ext_ippicv-build/CMakeFiles/ALL_BUILD.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/ippicv/src/ext_ippicv-build/CMakeFiles/ZERO_CHECK.dir

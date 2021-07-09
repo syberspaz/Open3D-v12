@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\c49540493ef5df63cbcf668f250647ee\ext_libpng-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\c49540493ef5df63cbcf668f250647ee\ext_libpng-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\c49540493ef5df63cbcf668f250647ee\ext_libpng-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\c49540493ef5df63cbcf668f250647ee\ext_libpng-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\c49540493ef5df63cbcf668f250647ee\ext_libpng-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\c49540493ef5df63cbcf668f250647ee\ext_libpng-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\c49540493ef5df63cbcf668f250647ee\ext_libpng-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\9fb200607cd65ed8ea08e8270a763c62\ext_libpng-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\7a64e63c537dcb36ac9d7cdaee0e50ef\ext_libpng.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\ext_libpng" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87AA8EE0-65C1-3C39-9C48-0416A89E43EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\AdvancedIndexing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\ShapeUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\CUDAUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\Dtype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\EigenConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\Indexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\MemoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\MemoryManagerCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\NumpyIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\Tensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\TensorKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\TensorList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\Det.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\Matmul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\MatmulCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\LeastSquares.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\LeastSquaresCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\LU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\LUCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\Solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\SolveCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\Inverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\InverseCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\SVD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\SVDCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\Tri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\linalg\TriCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\Arange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\ArangeCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\IndexGetSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\IndexGetSetCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\NonZero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\NonZeroCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\UnaryEW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\UnaryEWCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\BinaryEW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\BinaryEWCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\Reduction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\ReductionCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\kernel\Kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\hashmap\Hashmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\hashmap\DeviceHashmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\hashmap\CPU\CreateCPUHashmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\nns\NNSIndex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\nns\NanoFlannIndex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\nns\NearestNeighborSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\nns\FixedRadiusIndex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97DF8C86-BBF1-3D28-9FFD-EA0A504408A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

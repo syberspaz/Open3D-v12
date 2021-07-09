@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\include\json\config.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\include\json\forwards.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\include\json\json_features.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\include\json\value.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\include\json\reader.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\include\json\version.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\include\json\writer.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\include\json\assertions.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\src\lib_json\json_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\src\lib_json\json_valueiterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp\src\lib_json\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{671DD0E4-6BE5-3766-9D79-00B9C6832A32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public API">
+      <UniqueIdentifier>{9F1AB567-1775-33EA-9A1D-C18E40AABA86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0871DC77-4168-311D-BDCA-E8AA30AC2E82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

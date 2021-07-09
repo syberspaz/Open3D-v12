@@ -1,0 +1,8 @@
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/src/ext_zlib-build/CMakeFiles/zlib.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/src/ext_zlib-build/CMakeFiles/zlibstatic.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/src/ext_zlib-build/CMakeFiles/example.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/src/ext_zlib-build/CMakeFiles/minigzip.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/src/ext_zlib-build/CMakeFiles/INSTALL.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/src/ext_zlib-build/CMakeFiles/RUN_TESTS.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/src/ext_zlib-build/CMakeFiles/ALL_BUILD.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/src/ext_zlib-build/CMakeFiles/ZERO_CHECK.dir

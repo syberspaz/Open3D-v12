@@ -1,0 +1,7 @@
+D:/VsprojectsOnD/Open3D/Open3D/build/tbb/src/ext_tbb-build/CMakeFiles/tbbmalloc_proxy_static.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/tbb/src/ext_tbb-build/CMakeFiles/tbb_def_files.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/tbb/src/ext_tbb-build/CMakeFiles/tbbmalloc_static.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/tbb/src/ext_tbb-build/CMakeFiles/tbb_static.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/tbb/src/ext_tbb-build/CMakeFiles/INSTALL.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/tbb/src/ext_tbb-build/CMakeFiles/ALL_BUILD.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/tbb/src/ext_tbb-build/CMakeFiles/ZERO_CHECK.dir

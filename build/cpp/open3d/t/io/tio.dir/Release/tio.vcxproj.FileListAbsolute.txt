@@ -1,0 +1,1 @@
+D:\VsprojectsOnD\Open3D\Open3D\build\cpp\open3d\t\io\tio.dir\Release\tio.lib

@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05D7EFFB-DD5C-36EB-B769-1D5B18D83291}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>AzureKinectViewer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\bin\examples\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AzureKinectViewer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AzureKinectViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\bin\examples\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AzureKinectViewer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AzureKinectViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\bin\examples\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AzureKinectViewer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AzureKinectViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\bin\examples\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AzureKinectViewer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AzureKinectViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4201;4310;4505;4127;4146;4189;4324;4706;4100;4702;4244;4245;4267;4305;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <WarningVersion>18</WarningVersion>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;OPEN3D_STATIC;GLEW_STATIC;FMT_HEADER_ONLY=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;OPEN3D_STATIC;GLEW_STATIC;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\Open3D.lib;..\..\assimp\lib\assimp-vc142-mt.lib;..\..\assimp\lib\IrrXML.lib;..\..\lib\Debug\Open3D_3rdparty_glew.lib;..\..\lib\Debug\glfw3.lib;gdi32.lib;..\..\libjpeg-turbo-install\lib\turbojpeg-static.lib;..\..\jsoncpp\lib\jsoncpp.lib;..\..\lib\Debug\Open3D_3rdparty_lzf.lib;..\..\libpng\lib\libpng16_staticd.lib;..\..\zlib\lib\zlibstaticd.lib;..\..\lib\Debug\Open3D_3rdparty_rply.lib;..\..\lib\Debug\Open3D_3rdparty_tinyfiledialogs.lib;..\..\lib\Debug\Open3D_3rdparty_qhullcpp.lib;..\..\lib\Debug\Open3D_3rdparty_qhull_r.lib;opengl32.lib;..\..\lib\Debug\Open3D_3rdparty_imgui.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\filameshio.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\filament.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\filamat_lite.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\filaflat.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\filabridge.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\geometry.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\backend.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\bluegl.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\ibl.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\image.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\meshoptimizer.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\smol-v.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\utils.lib;..\..\filament\src\ext_filament\lib\x86_64\mtd\bluevk.lib;..\..\mkl_install\lib\tbbmalloc_static.lib;..\..\mkl_install\lib\mkl_intel_ilp64.lib;..\..\mkl_install\lib\mkl_core.lib;..\..\mkl_install\lib\mkl_sequential.lib;..\..\mkl_install\lib\mkl_tbb_thread.lib;..\..\mkl_install\lib\tbb_static.lib;..\..\ippicv\lib\ippiw.lib;..\..\ippicv\lib\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /HIGHENTROPYVA /force:multiple /pdbcompress</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VsprojectsOnD/Open3D/Open3D/build/lib/Debug/AzureKinectViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VsprojectsOnD/Open3D/Open3D/build/bin/examples/Debug/AzureKinectViewer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>4201;4310;4505;4127;4146;4189;4324;4706;4100;4702;4244;4245;4267;4305;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <WarningVersion>18</WarningVersion>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;OPEN3D_STATIC;GLEW_STATIC;FMT_HEADER_ONLY=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;OPEN3D_STATIC;GLEW_STATIC;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\Open3D.lib;..\..\assimp\lib\assimp-vc142-mt.lib;..\..\assimp\lib\IrrXML.lib;..\..\lib\Release\Open3D_3rdparty_glew.lib;..\..\lib\Release\glfw3.lib;gdi32.lib;..\..\libjpeg-turbo-install\lib\turbojpeg-static.lib;..\..\jsoncpp\lib\jsoncpp.lib;..\..\lib\Release\Open3D_3rdparty_lzf.lib;..\..\libpng\lib\libpng16_static.lib;..\..\zlib\lib\zlibstatic.lib;..\..\lib\Release\Open3D_3rdparty_rply.lib;..\..\lib\Release\Open3D_3rdparty_tinyfiledialogs.lib;..\..\lib\Release\Open3D_3rdparty_qhullcpp.lib;..\..\lib\Release\Open3D_3rdparty_qhull_r.lib;opengl32.lib;..\..\lib\Release\Open3D_3rdparty_imgui.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filameshio.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filament.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filamat_lite.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filaflat.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filabridge.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\geometry.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\backend.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\bluegl.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\ibl.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\image.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\meshoptimizer.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\smol-v.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\utils.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\bluevk.lib;..\..\mkl_install\lib\tbbmalloc_static.lib;..\..\mkl_install\lib\mkl_intel_ilp64.lib;..\..\mkl_install\lib\mkl_core.lib;..\..\mkl_install\lib\mkl_sequential.lib;..\..\mkl_install\lib\mkl_tbb_thread.lib;..\..\mkl_install\lib\tbb_static.lib;..\..\ippicv\lib\ippiw.lib;..\..\ippicv\lib\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /HIGHENTROPYVA /force:multiple /pdbcompress</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VsprojectsOnD/Open3D/Open3D/build/lib/Release/AzureKinectViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VsprojectsOnD/Open3D/Open3D/build/bin/examples/Release/AzureKinectViewer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>4201;4310;4505;4127;4146;4189;4324;4706;4100;4702;4244;4245;4267;4305;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <WarningVersion>18</WarningVersion>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;OPEN3D_STATIC;GLEW_STATIC;FMT_HEADER_ONLY=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;OPEN3D_STATIC;GLEW_STATIC;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\Open3D.lib;..\..\assimp\lib\assimp-vc142-mt.lib;..\..\assimp\lib\IrrXML.lib;..\..\lib\MinSizeRel\Open3D_3rdparty_glew.lib;..\..\lib\MinSizeRel\glfw3.lib;gdi32.lib;..\..\libjpeg-turbo-install\lib\turbojpeg-static.lib;..\..\jsoncpp\lib\jsoncpp.lib;..\..\lib\MinSizeRel\Open3D_3rdparty_lzf.lib;..\..\libpng\lib\libpng16_static.lib;..\..\zlib\lib\zlibstatic.lib;..\..\lib\MinSizeRel\Open3D_3rdparty_rply.lib;..\..\lib\MinSizeRel\Open3D_3rdparty_tinyfiledialogs.lib;..\..\lib\MinSizeRel\Open3D_3rdparty_qhullcpp.lib;..\..\lib\MinSizeRel\Open3D_3rdparty_qhull_r.lib;opengl32.lib;..\..\lib\MinSizeRel\Open3D_3rdparty_imgui.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filameshio.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filament.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filamat_lite.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filaflat.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filabridge.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\geometry.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\backend.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\bluegl.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\ibl.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\image.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\meshoptimizer.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\smol-v.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\utils.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\bluevk.lib;..\..\mkl_install\lib\tbbmalloc_static.lib;..\..\mkl_install\lib\mkl_intel_ilp64.lib;..\..\mkl_install\lib\mkl_core.lib;..\..\mkl_install\lib\mkl_sequential.lib;..\..\mkl_install\lib\mkl_tbb_thread.lib;..\..\mkl_install\lib\tbb_static.lib;..\..\ippicv\lib\ippiw.lib;..\..\ippicv\lib\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /HIGHENTROPYVA /force:multiple /pdbcompress</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VsprojectsOnD/Open3D/Open3D/build/lib/MinSizeRel/AzureKinectViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VsprojectsOnD/Open3D/Open3D/build/bin/examples/MinSizeRel/AzureKinectViewer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4201;4310;4505;4127;4146;4189;4324;4706;4100;4702;4244;4245;4267;4305;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <WarningVersion>18</WarningVersion>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;OPEN3D_STATIC;GLEW_STATIC;FMT_HEADER_ONLY=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;OPEN3D_STATIC;GLEW_STATIC;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\glew\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\GLFW\include;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\Eigen;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\fmt\include;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\src\ext_k4a\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\Open3D.lib;..\..\assimp\lib\assimp-vc142-mt.lib;..\..\assimp\lib\IrrXML.lib;..\..\lib\RelWithDebInfo\Open3D_3rdparty_glew.lib;..\..\lib\RelWithDebInfo\glfw3.lib;gdi32.lib;..\..\libjpeg-turbo-install\lib\turbojpeg-static.lib;..\..\jsoncpp\lib\jsoncpp.lib;..\..\lib\RelWithDebInfo\Open3D_3rdparty_lzf.lib;..\..\libpng\lib\libpng16_static.lib;..\..\zlib\lib\zlibstatic.lib;..\..\lib\RelWithDebInfo\Open3D_3rdparty_rply.lib;..\..\lib\RelWithDebInfo\Open3D_3rdparty_tinyfiledialogs.lib;..\..\lib\RelWithDebInfo\Open3D_3rdparty_qhullcpp.lib;..\..\lib\RelWithDebInfo\Open3D_3rdparty_qhull_r.lib;opengl32.lib;..\..\lib\RelWithDebInfo\Open3D_3rdparty_imgui.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filameshio.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filament.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filamat_lite.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filaflat.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\filabridge.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\geometry.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\backend.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\bluegl.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\ibl.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\image.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\meshoptimizer.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\smol-v.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\utils.lib;..\..\filament\src\ext_filament\lib\x86_64\mt\bluevk.lib;..\..\mkl_install\lib\tbbmalloc_static.lib;..\..\mkl_install\lib\mkl_intel_ilp64.lib;..\..\mkl_install\lib\mkl_core.lib;..\..\mkl_install\lib\mkl_sequential.lib;..\..\mkl_install\lib\mkl_tbb_thread.lib;..\..\mkl_install\lib\tbb_static.lib;..\..\ippicv\lib\ippiw.lib;..\..\ippicv\lib\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /HIGHENTROPYVA /force:multiple /pdbcompress</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VsprojectsOnD/Open3D/Open3D/build/lib/RelWithDebInfo/AzureKinectViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VsprojectsOnD/Open3D/Open3D/build/bin/examples/RelWithDebInfo/AzureKinectViewer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\examples\cpp\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/examples/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D -BD:/VsprojectsOnD/Open3D/Open3D/build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/examples/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\examples\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/examples/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D -BD:/VsprojectsOnD/Open3D/Open3D/build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/examples/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\examples\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/examples/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D -BD:/VsprojectsOnD/Open3D/Open3D/build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/examples/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\examples\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/examples/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D -BD:/VsprojectsOnD/Open3D/Open3D/build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/examples/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\examples\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\examples\cpp\AzureKinectViewer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ZERO_CHECK.vcxproj">
+      <Project>{B43BE0BF-04C2-3E85-B88F-CB2CC832AA03}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\3rdparty_glew.vcxproj">
+      <Project>{90C6AC64-6EF9-31CF-8D98-FD0C39D8B6CC}</Project>
+      <Name>3rdparty_glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\3rdparty_imgui.vcxproj">
+      <Project>{8ADB616E-9008-32C0-B79D-8BED76AE16C6}</Project>
+      <Name>3rdparty_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\3rdparty_lzf.vcxproj">
+      <Project>{278EA36F-3F24-3EA8-91F3-1F93D9FE2709}</Project>
+      <Name>3rdparty_lzf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\3rdparty_qhull_r.vcxproj">
+      <Project>{E8D296FE-884A-3A1B-A5BC-E9BEA4375951}</Project>
+      <Name>3rdparty_qhull_r</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\3rdparty_qhullcpp.vcxproj">
+      <Project>{14D268FE-AEFD-3683-8978-68560D7632F7}</Project>
+      <Name>3rdparty_qhullcpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\3rdparty_rply.vcxproj">
+      <Project>{188F7E3D-661D-386F-8FB8-5F0F23A4B55D}</Project>
+      <Name>3rdparty_rply</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\3rdparty_tinyfiledialogs.vcxproj">
+      <Project>{02A3B3E4-D2D8-35ED-9634-EB2956B26022}</Project>
+      <Name>3rdparty_tinyfiledialogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\cpp\open3d\Open3D.vcxproj">
+      <Project>{7BD4E42B-247E-3759-85FC-5CD8461D259E}</Project>
+      <Name>Open3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_assimp.vcxproj">
+      <Project>{69142603-291D-3E93-837B-364119BB09A1}</Project>
+      <Name>ext_assimp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_filament.vcxproj">
+      <Project>{FCE9BF78-9F98-3262-A5E3-34A574F1E901}</Project>
+      <Name>ext_filament</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_ippicv.vcxproj">
+      <Project>{A7D8FAB0-38B7-3068-BB92-BE61FFC76471}</Project>
+      <Name>ext_ippicv</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_jsoncpp.vcxproj">
+      <Project>{7AD2F091-41E9-323C-B94E-5F235895B473}</Project>
+      <Name>ext_jsoncpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_k4a.vcxproj">
+      <Project>{AE686AE2-3127-3E1E-855B-937347783550}</Project>
+      <Name>ext_k4a</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_libpng.vcxproj">
+      <Project>{11F7F2C7-EDD3-3DE9-9D4B-2FC22DCAC020}</Project>
+      <Name>ext_libpng</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_mkl.vcxproj">
+      <Project>{151E7A5A-83EF-3146-A9BA-A5B5647FF212}</Project>
+      <Name>ext_mkl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_mkl_include.vcxproj">
+      <Project>{1603AD0C-2433-36F9-872A-361C56B5148E}</Project>
+      <Name>ext_mkl_include</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_tbb.vcxproj">
+      <Project>{BFC6E682-8DEF-3C48-B45E-2F34871E6407}</Project>
+      <Name>ext_tbb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_turbojpeg.vcxproj">
+      <Project>{B39D26E3-046E-3EDF-A93F-43F39EEF4418}</Project>
+      <Name>ext_turbojpeg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ext_zlib.vcxproj">
+      <Project>{1079D35B-9395-382B-8841-9F58EF660E9F}</Project>
+      <Name>ext_zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\3rdparty\GLFW\src\glfw.vcxproj">
+      <Project>{E7F2A00E-1B7F-3289-8B6B-60C17B7422CC}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\open3d_downloads.vcxproj">
+      <Project>{5AAAB215-1C71-39EC-B8BC-CE25F0ACF0AF}</Project>
+      <Name>open3d_downloads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

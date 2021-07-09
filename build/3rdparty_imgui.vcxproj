@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8ADB616E-9008-32C0-B79D-8BED76AE16C6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>3rdparty_imgui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">3rdparty_imgui.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Open3D_3rdparty_imgui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3rdparty_imgui.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Open3D_3rdparty_imgui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">3rdparty_imgui.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Open3D_3rdparty_imgui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">3rdparty_imgui.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Open3D_3rdparty_imgui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;WITH_FAISS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;WITH_FAISS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;WITH_FAISS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;WITH_FAISS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;WITH_FAISS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;WITH_FAISS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;WITH_FAISS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;BUILD_GUI;_GLIBCXX_USE_CXX11_ABI=0;WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;__TBB_LIB_NAME=tbb_static;WITH_FAISS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\cpp;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D -BD:/VsprojectsOnD/Open3D/Open3D/build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\CMake\FindPythonExecutable.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\assimp\assimp.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\azure_kinect\azure_kinect.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\filament\filament_download.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\find_dependencies.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\ippicv\ippicv.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\jsoncpp\jsoncpp.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libpng\libpng.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\mkl\mkl.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\mkl\tbb.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\zlib\zlib.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeSystem.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\tmp\ext_assimp-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\filament\tmp\ext_filament-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\ippicv\tmp\ext_ippicv-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\tmp\ext_jsoncpp-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\tmp\ext_k4a-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\libpng\tmp\ext_libpng-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\mkl\tmp\ext_mkl-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\mkl_include\tmp\ext_mkl_include-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\open3d_downloads-prefix\tmp\open3d_downloads-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\tbb\tmp\ext_tbb-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\tmp\ext_turbojpeg-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\zlib\tmp\ext_zlib-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\docs\Doxyfile.in;D:\VsprojectsOnD\Open3D\Open3D\docs\getting_started.rst.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D -BD:/VsprojectsOnD/Open3D/Open3D/build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\CMake\FindPythonExecutable.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\assimp\assimp.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\azure_kinect\azure_kinect.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\filament\filament_download.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\find_dependencies.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\ippicv\ippicv.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\jsoncpp\jsoncpp.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libpng\libpng.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\mkl\mkl.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\mkl\tbb.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\zlib\zlib.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeSystem.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\tmp\ext_assimp-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\filament\tmp\ext_filament-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\ippicv\tmp\ext_ippicv-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\tmp\ext_jsoncpp-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\tmp\ext_k4a-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\libpng\tmp\ext_libpng-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\mkl\tmp\ext_mkl-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\mkl_include\tmp\ext_mkl_include-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\open3d_downloads-prefix\tmp\open3d_downloads-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\tbb\tmp\ext_tbb-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\tmp\ext_turbojpeg-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\zlib\tmp\ext_zlib-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\docs\Doxyfile.in;D:\VsprojectsOnD\Open3D\Open3D\docs\getting_started.rst.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D -BD:/VsprojectsOnD/Open3D/Open3D/build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\CMake\FindPythonExecutable.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\assimp\assimp.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\azure_kinect\azure_kinect.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\filament\filament_download.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\find_dependencies.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\ippicv\ippicv.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\jsoncpp\jsoncpp.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libpng\libpng.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\mkl\mkl.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\mkl\tbb.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\zlib\zlib.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeSystem.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\tmp\ext_assimp-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\filament\tmp\ext_filament-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\ippicv\tmp\ext_ippicv-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\tmp\ext_jsoncpp-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\tmp\ext_k4a-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\libpng\tmp\ext_libpng-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\mkl\tmp\ext_mkl-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\mkl_include\tmp\ext_mkl_include-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\open3d_downloads-prefix\tmp\open3d_downloads-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\tbb\tmp\ext_tbb-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\tmp\ext_turbojpeg-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\zlib\tmp\ext_zlib-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\docs\Doxyfile.in;D:\VsprojectsOnD\Open3D\Open3D\docs\getting_started.rst.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D -BD:/VsprojectsOnD/Open3D/Open3D/build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\CMake\FindPythonExecutable.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\assimp\assimp.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\azure_kinect\azure_kinect.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\filament\filament_download.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\find_dependencies.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\ippicv\ippicv.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\jsoncpp\jsoncpp.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libpng\libpng.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\mkl\mkl.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\mkl\tbb.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\zlib\zlib.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\3.20.2\CMakeSystem.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\tmp\ext_assimp-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\filament\tmp\ext_filament-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\ippicv\tmp\ext_ippicv-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\tmp\ext_jsoncpp-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\k4a\tmp\ext_k4a-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\libpng\tmp\ext_libpng-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\mkl\tmp\ext_mkl-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\mkl_include\tmp\ext_mkl_include-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\open3d_downloads-prefix\tmp\open3d_downloads-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\tbb\tmp\ext_tbb-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\tmp\ext_turbojpeg-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\build\zlib\tmp\ext_zlib-cfgcmd.txt.in;D:\VsprojectsOnD\Open3D\Open3D\docs\Doxyfile.in;D:\VsprojectsOnD\Open3D\Open3D\docs\getting_started.rst.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui\imgui_demo.cpp" />
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui\imgui_draw.cpp" />
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\3rdparty\imgui\imgui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\ZERO_CHECK.vcxproj">
+      <Project>{B43BE0BF-04C2-3E85-B88F-CB2CC832AA03}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\open3d_downloads.vcxproj">
+      <Project>{5AAAB215-1C71-39EC-B8BC-CE25F0ACF0AF}</Project>
+      <Name>open3d_downloads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

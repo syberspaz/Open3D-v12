@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\f63ffe4034ace13292f5f3d3ab24872d\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F7CDA986-7330-3C7C-88CC-DE8E83E7A6CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

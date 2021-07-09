@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\Release\cjpeg-static.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\Release\djpeg-static.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\Release\jpegtran-static.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\md5\Release\md5cmp.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\Release\rdjpgcom.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\Release\tjbench-static.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\Release\tjunittest-static.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\Release\wrjpgcom.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,7 @@
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/lib/zlib.lib
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/bin/zlib.dll
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/lib/zlibstatic.lib
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/include/zconf.h
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/include/zlib.h
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/share/man/man3/zlib.3
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/share/pkgconfig/zlib.pc

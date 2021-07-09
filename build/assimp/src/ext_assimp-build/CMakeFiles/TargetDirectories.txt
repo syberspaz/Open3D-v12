@@ -1,0 +1,14 @@
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/uninstall.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/INSTALL.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/ALL_BUILD.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/ZERO_CHECK.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/contrib/zlib/CMakeFiles/zlib.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/contrib/zlib/CMakeFiles/zlibstatic.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/contrib/zlib/CMakeFiles/INSTALL.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/contrib/CMakeFiles/INSTALL.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/contrib/irrXML/CMakeFiles/IrrXML.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/contrib/irrXML/CMakeFiles/INSTALL.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/CMakeFiles/assimp.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/CMakeFiles/INSTALL.dir

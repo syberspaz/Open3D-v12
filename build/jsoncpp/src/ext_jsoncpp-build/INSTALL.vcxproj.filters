@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\jsoncpp\src\ext_jsoncpp-build\CMakeFiles\5ef025bbf2513df69489dda876ee0d1e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{04CDC825-4958-3AF7-AD4A-4F95803707FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

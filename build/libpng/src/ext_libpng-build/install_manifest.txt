@@ -1,0 +1,12 @@
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/lib/libpng16_static.lib
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/include/png.h
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/include/pngconf.h
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/include/pnglibconf.h
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/include/libpng16/png.h
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/include/libpng16/pngconf.h
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/include/libpng16/pnglibconf.h
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/share/man/man3/libpng.3
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/share/man/man3/libpngpf.3
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/share/man/man5/png.5
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/lib/libpng/libpng16.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/lib/libpng/libpng16-release.cmake

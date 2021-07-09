@@ -1,0 +1,13 @@
+# Target labels
+ ext_k4a
+# Source files and their labels
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/ext_k4a
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/7a64e63c537dcb36ac9d7cdaee0e50ef/ext_k4a.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9fb200607cd65ed8ea08e8270a763c62/ext_k4a-complete.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/da336ea959398af764dfc2e0afb1711c/ext_k4a-build.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/da336ea959398af764dfc2e0afb1711c/ext_k4a-configure.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/da336ea959398af764dfc2e0afb1711c/ext_k4a-download.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/da336ea959398af764dfc2e0afb1711c/ext_k4a-install.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/da336ea959398af764dfc2e0afb1711c/ext_k4a-mkdir.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/da336ea959398af764dfc2e0afb1711c/ext_k4a-patch.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/da336ea959398af764dfc2e0afb1711c/ext_k4a-update.rule

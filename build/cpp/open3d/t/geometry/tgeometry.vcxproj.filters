@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\kernel\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\kernel\ImageCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\kernel\PointCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\kernel\PointCloudCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\kernel\TSDFVoxelGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\kernel\TSDFVoxelGridCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\PointCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\RGBDImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\TensorMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\TriangleMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\TSDFVoxelGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\kernel\IPPImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\t\geometry\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97DF8C86-BBF1-3D28-9FFD-EA0A504408A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

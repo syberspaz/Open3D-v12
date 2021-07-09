@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\GeometryRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\ImageMaskShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\ImageShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\NormalShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\PhongShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\PickingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\RGBDImageShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\ShaderWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\Simple2DShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\SimpleBlackShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\SimpleShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\TexturePhongShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\TextureSimpleShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\ColorMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\DrawGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\GLHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\PointCloudPicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\SelectionPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\SelectionPolygonVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\GuiSettingsModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\GuiSettingsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\GuiVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\GuiWidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\O3DVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\O3DVisualizerSelections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\RenderOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\RenderOptionWithEditing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewControlWithCustomAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewControlWithEditing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewTrajectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\Visualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerWithCustomAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerWithEditing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerWithKeyCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerWithVertexSelection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\CameraInteractorLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\CameraSphereInteractorLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\ColorGrading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Gradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\IBLRotationInteractorLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\LightDirectionInteractorLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\MaterialModifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\MatrixInteractorLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\ModelInteractorLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Open3DScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\RendererHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\RotationInteractorLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentEntitiesMods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentGeometryBuffersBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentRenderToBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\LineSetBuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\PointCloudBuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\TriangleMeshBuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\GeometryRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\ImageMaskShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\ImageShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\NormalShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\PhongShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\PickingShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\RGBDImageShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\ShaderWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\Simple2DShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\SimpleBlackShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\SimpleShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\TexturePhongShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\TextureSimpleShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\ColorMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\DrawGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\GLHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\PointCloudPicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\SelectionPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\utility\SelectionPolygonVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\GuiSettingsModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\GuiSettingsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\GuiVisualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\GuiWidgets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\O3DVisualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\O3DVisualizerSelections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\Receiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\RenderOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\RenderOptionWithEditing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewControlWithCustomAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewControlWithEditing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\ViewTrajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\Visualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerWithCustomAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerWithEditing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerWithKeyCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\visualizer\VisualizerWithVertexSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\CameraInteractorLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\CameraSphereInteractorLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\ColorGrading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Gradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\IBLRotationInteractorLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\LightDirectionInteractorLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\MaterialModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\MatrixInteractorLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\ModelInteractorLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Open3DScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\RenderToBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\RendererHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\RendererStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\RotationInteractorLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentEntitiesMods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentGeometryBuffersBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentRenderToBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\rendering\filament\FilamentView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\ImageFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\ImageMaskFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\ImageMaskVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\ImageVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\NormalFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\NormalVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\PhongFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\PhongVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\PickingFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\PickingVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\RGBDImageFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\Simple2DFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\Simple2DVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\SimpleBlackFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\SimpleBlackVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\SimpleFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\SimpleVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\TexturePhongFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\TexturePhongVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\TextureSimpleFragmentShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\shader\glsl\TextureSimpleVertexShader.glsl">
+      <Filter>Source Files\Shader\GLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87AA8EE0-65C1-3C39-9C48-0416A89E43EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{68EF91D5-E435-3172-B067-72EB878050E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97DF8C86-BBF1-3D28-9FFD-EA0A504408A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{2E1B4926-ADCD-312B-857A-AE87D4270C74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\GLSL">
+      <UniqueIdentifier>{275BCB22-4B65-3EFF-BECF-59D7FECC4F2E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

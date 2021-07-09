@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/GLFW/CMake/modules/FindVulkan.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/GLFW/CMakeLists.txt
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/GLFW/src/glfw3.pc.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/GLFW/src/glfw3Config.cmake.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/GLFW/src/glfw_config.h.in

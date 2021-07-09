@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8FD5648-CF8F-3BDF-862E-1C41687A83DF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo -BD:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\BuildPackages.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\GNUInstallDirs.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\cmake_uninstall.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\jconfigint.h.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\installer.nsi.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\libjpeg.pc.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\libturbojpeg.pc.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\maketarball.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\tjbenchtest.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\tjexampletest.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\win\jconfig.h.in;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo -BD:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\BuildPackages.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\GNUInstallDirs.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\cmake_uninstall.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\jconfigint.h.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\installer.nsi.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\libjpeg.pc.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\libturbojpeg.pc.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\maketarball.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\tjbenchtest.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\tjexampletest.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\win\jconfig.h.in;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo -BD:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\BuildPackages.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\GNUInstallDirs.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\cmake_uninstall.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\jconfigint.h.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\installer.nsi.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\libjpeg.pc.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\libturbojpeg.pc.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\maketarball.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\tjbenchtest.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\tjexampletest.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\win\jconfig.h.in;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo -BD:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\BuildPackages.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\GNUInstallDirs.cmake;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\cmakescripts\cmake_uninstall.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\jconfigint.h.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\installer.nsi.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\libjpeg.pc.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\libturbojpeg.pc.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\release\maketarball.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\tjbenchtest.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\tjexampletest.in;D:\VsprojectsOnD\Open3D\Open3D\3rdparty\libjpeg-turbo\libjpeg-turbo\win\jconfig.h.in;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\3.20.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\ZERO_CHECK.vcxproj">
+      <Project>{6A808F75-D788-31AE-9708-185C6A7BA9EE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\cjpeg-static.vcxproj">
+      <Project>{9CDC1876-0A18-34DD-866A-2D649F44D272}</Project>
+      <Name>cjpeg-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\djpeg-static.vcxproj">
+      <Project>{90D31F47-109B-3C4E-8DDB-1CF3B48CD717}</Project>
+      <Name>djpeg-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\jpeg-static.vcxproj">
+      <Project>{03051A94-8774-3F2D-9749-F350D2733AB0}</Project>
+      <Name>jpeg-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\jpegtran-static.vcxproj">
+      <Project>{EFA91746-60FC-3556-A77E-E2D501FB7F54}</Project>
+      <Name>jpegtran-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\md5\md5cmp.vcxproj">
+      <Project>{A7534C99-F555-3D55-9A8A-94A1B3DC5D59}</Project>
+      <Name>md5cmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\rdjpgcom.vcxproj">
+      <Project>{B8AE1A92-602A-33FE-9C5D-E824FDF41323}</Project>
+      <Name>rdjpgcom</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\simd.vcxproj">
+      <Project>{11808D39-E307-3E89-B6E5-5ECC41D1C2C4}</Project>
+      <Name>simd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\tjbench-static.vcxproj">
+      <Project>{04261896-3E90-3228-9A8F-20E038D0227D}</Project>
+      <Name>tjbench-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\tjunittest-static.vcxproj">
+      <Project>{E8C193A7-FE2E-3C00-8F2C-210942BA2433}</Project>
+      <Name>tjunittest-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\turbojpeg-static.vcxproj">
+      <Project>{91020C79-763F-3BD0-B12F-837E932E1C40}</Project>
+      <Name>turbojpeg-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\wrjpgcom.vcxproj">
+      <Project>{6EAE8F52-1C33-3FC8-B2D0-B84FE35B0D04}</Project>
+      <Name>wrjpgcom</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

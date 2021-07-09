@@ -1,0 +1,73 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckLanguage.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/ExternalProject-download.cmake.in
+C:/Program Files/CMake/share/cmake-3.20/Modules/ExternalProject.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/ProcessorCount.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/RepositoryInfo.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/CMake/FindPythonExecutable.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/assimp/assimp.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/azure_kinect/azure_kinect.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/filament/filament_download.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/find_dependencies.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/ippicv/ippicv.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/jsoncpp/jsoncpp.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libpng/libpng.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/mkl/mkl.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/mkl/tbb.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/zlib/zlib.cmake
+D:/VsprojectsOnD/Open3D/Open3D/CMakeLists.txt
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/3.20.2/CMakeCCompiler.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/3.20.2/CMakeRCCompiler.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/3.20.2/CMakeSystem.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/tmp/ext_assimp-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/filament/tmp/ext_filament-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/ippicv/tmp/ext_ippicv-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/tmp/ext_jsoncpp-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/k4a/tmp/ext_k4a-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/tmp/ext_libpng-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/mkl/tmp/ext_mkl-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/mkl_include/tmp/ext_mkl_include-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/open3d_downloads-prefix/tmp/open3d_downloads-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/tbb/tmp/ext_tbb-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/tmp/ext_turbojpeg-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/build/zlib/tmp/ext_zlib-cfgcmd.txt.in
+D:/VsprojectsOnD/Open3D/Open3D/docs/Doxyfile.in
+D:/VsprojectsOnD/Open3D/Open3D/docs/getting_started.rst.in

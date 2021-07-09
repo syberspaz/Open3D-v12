@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/cmake-modules/FindRT.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/code/CMakeLists.txt

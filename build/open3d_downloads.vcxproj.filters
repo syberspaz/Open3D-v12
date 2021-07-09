@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\dcd60bb2d582654b16a18bd554b11e6f\open3d_downloads-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\dcd60bb2d582654b16a18bd554b11e6f\open3d_downloads-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\dcd60bb2d582654b16a18bd554b11e6f\open3d_downloads-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\dcd60bb2d582654b16a18bd554b11e6f\open3d_downloads-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\dcd60bb2d582654b16a18bd554b11e6f\open3d_downloads-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\dcd60bb2d582654b16a18bd554b11e6f\open3d_downloads-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\dcd60bb2d582654b16a18bd554b11e6f\open3d_downloads-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\9fb200607cd65ed8ea08e8270a763c62\open3d_downloads-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\7a64e63c537dcb36ac9d7cdaee0e50ef\open3d_downloads.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\open3d_downloads" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87AA8EE0-65C1-3C39-9C48-0416A89E43EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

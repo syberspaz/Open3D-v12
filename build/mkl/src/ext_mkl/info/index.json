@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "intel_216",
+  "build_number": 216,
+  "depends": [
+    "intel-openmp 2020.*",
+    "mkl-include 2020.1 intel_216",
+    "tbb 2020.*"
+  ],
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "name": "mkl-static",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1584982049486,
+  "version": "2020.1"
+}

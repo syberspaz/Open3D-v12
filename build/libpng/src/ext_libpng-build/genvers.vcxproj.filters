@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\CMakeFiles\fe2b9091f429fccd0d4a33813a171fef\pnglibconf.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\CMakeFiles\fe2b9091f429fccd0d4a33813a171fef\pnglibconf.out.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\CMakeFiles\fe2b9091f429fccd0d4a33813a171fef\pnglibconf.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\CMakeFiles\e47691c2220f27880ebd4d7f21c0cdc3\vers.out.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\CMakeFiles\fe2b9091f429fccd0d4a33813a171fef\libpng.vers.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\CMakeFiles\8b04e9e9535782de25f4c30d3ca9648f\genvers.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\CMakeFiles\genvers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DC49DCAB-A2AB-35A3-B17F-61E81162BDE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

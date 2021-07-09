@@ -1,0 +1,13 @@
+# Target labels
+ ext_libpng
+# Source files and their labels
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/ext_libpng
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/7a64e63c537dcb36ac9d7cdaee0e50ef/ext_libpng.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9fb200607cd65ed8ea08e8270a763c62/ext_libpng-complete.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/c49540493ef5df63cbcf668f250647ee/ext_libpng-build.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/c49540493ef5df63cbcf668f250647ee/ext_libpng-configure.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/c49540493ef5df63cbcf668f250647ee/ext_libpng-download.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/c49540493ef5df63cbcf668f250647ee/ext_libpng-install.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/c49540493ef5df63cbcf668f250647ee/ext_libpng-mkdir.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/c49540493ef5df63cbcf668f250647ee/ext_libpng-patch.rule
+D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/c49540493ef5df63cbcf668f250647ee/ext_libpng-update.rule

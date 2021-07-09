@@ -1,0 +1,1 @@
+D:\VsprojectsOnD\Open3D\Open3D\build\turbojpeg\src\ext_turbojpeg-build\simd.dir\Release\simd.lib

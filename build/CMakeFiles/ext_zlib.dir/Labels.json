@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/ext_zlib"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/7a64e63c537dcb36ac9d7cdaee0e50ef/ext_zlib.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/9fb200607cd65ed8ea08e8270a763c62/ext_zlib-complete.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/27fc960db37069248bd60ea833929ef6/ext_zlib-build.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/27fc960db37069248bd60ea833929ef6/ext_zlib-configure.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/27fc960db37069248bd60ea833929ef6/ext_zlib-download.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/27fc960db37069248bd60ea833929ef6/ext_zlib-install.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/27fc960db37069248bd60ea833929ef6/ext_zlib-mkdir.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/27fc960db37069248bd60ea833929ef6/ext_zlib-patch.rule"
+		},
+		{
+			"file" : "D:/VsprojectsOnD/Open3D/Open3D/build/CMakeFiles/27fc960db37069248bd60ea833929ef6/ext_zlib-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext_zlib"
+		],
+		"name" : "ext_zlib"
+	}
+}

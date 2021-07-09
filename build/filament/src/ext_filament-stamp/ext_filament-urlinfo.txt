@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/google/filament/releases/download/v1.9.9/filament-v1.9.9-windows.tgz'
+tag=''

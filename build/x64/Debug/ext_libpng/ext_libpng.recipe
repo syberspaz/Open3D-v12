@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Debug\ext_zlib</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Debug\ext_libpng</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

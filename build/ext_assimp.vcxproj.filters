@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\6fd151d0ccae43613fa9bc0c0309f499\ext_assimp-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\6fd151d0ccae43613fa9bc0c0309f499\ext_assimp-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\6fd151d0ccae43613fa9bc0c0309f499\ext_assimp-patch-copy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\6fd151d0ccae43613fa9bc0c0309f499\ext_assimp-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\6fd151d0ccae43613fa9bc0c0309f499\ext_assimp-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\6fd151d0ccae43613fa9bc0c0309f499\ext_assimp-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\6fd151d0ccae43613fa9bc0c0309f499\ext_assimp-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\6fd151d0ccae43613fa9bc0c0309f499\ext_assimp-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\9fb200607cd65ed8ea08e8270a763c62\ext_assimp-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\7a64e63c537dcb36ac9d7cdaee0e50ef\ext_assimp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\ext_assimp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87AA8EE0-65C1-3C39-9C48-0416A89E43EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

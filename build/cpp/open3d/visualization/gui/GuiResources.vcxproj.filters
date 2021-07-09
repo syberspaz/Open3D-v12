@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\colorMap.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\defaultLit.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\defaultLitSSR.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\defaultLitTransparency.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\defaultUnlit.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\defaultUnlitTransparency.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\depth.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\depth_value.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\img_blit.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\infiniteGroundPlane.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\normals.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\pointcloud.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\ui_blit.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\unlitBackground.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\unlitGradient.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\unlitLine.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\unlitPolygonOffset.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\Materials\unlitSolidColor.mat" />
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\CMakeFiles\b1026dd2c325f4ebb3eecbab2c11d755\GuiResources.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\cpp\open3d\visualization\gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VsprojectsOnD\Open3D\Open3D\build\cpp\open3d\visualization\gui\CMakeFiles\GuiResources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87AA8EE0-65C1-3C39-9C48-0416A89E43EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+D:\VsprojectsOnD\Open3D\Open3D\build\cpp\open3d\visualization\gui\GUI.dir\Debug\GUI.lib

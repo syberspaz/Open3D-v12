@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/BasicConfigVersion-ExactVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+D:/VsprojectsOnD/Open3D/Open3D/cpp/open3d/CMakeLists.txt
+D:/VsprojectsOnD/Open3D/Open3D/cpp/open3d/Open3D.h.in
+D:/VsprojectsOnD/Open3D/Open3D/cpp/open3d/Open3DConfig.cmake.in
+D:/VsprojectsOnD/Open3D/Open3D/cpp/open3d/Open3DConfig.h.in
+D:/VsprojectsOnD/Open3D/Open3D/cpp/open3d/cmake_uninstall.cmake.in

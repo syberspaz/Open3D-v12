@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF6D3C6E-2074-351D-9A25-48ACD888B0AB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>UpdateAssimpLibsDebugSymbolsAndDLLs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\include;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\include;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\code;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\.;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\contrib\zlib;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.dll D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/bin64/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.exp D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.lib D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.dll D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/bin64/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.exp D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.ilk D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.lib D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.pdb D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\include;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\include;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\code;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\.;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\contrib\zlib;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.dll D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/bin64/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.exp D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.lib D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.dll D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/bin64/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.exp D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.ilk D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.lib D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.pdb D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\include;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\include;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\code;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\.;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\contrib\zlib;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.dll D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/bin64/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.exp D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.lib D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.dll D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/bin64/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.exp D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.ilk D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.lib D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.pdb D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\include;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\include;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\code;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\.;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\contrib\zlib;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.dll D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/bin64/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.exp D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Release/assimp--mt.lib D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.dll D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/bin64/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.exp D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.ilk D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.lib D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/code/Debug/assimp--mtd.pdb D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/lib64/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp -BD:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeSystem.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp-config-version.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp-config.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp.pc.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets-debug.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets-release.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\FindDirectX.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\FindPkgMacros.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\PrecompiledHeader.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\cmake_uninstall.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake\HunterGate.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\include\assimp\config.h.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp -BD:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeSystem.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp-config-version.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp-config.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp.pc.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets-debug.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets-release.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\FindDirectX.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\FindPkgMacros.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\PrecompiledHeader.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\cmake_uninstall.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake\HunterGate.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\include\assimp\config.h.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp -BD:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeSystem.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp-config-version.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp-config.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp.pc.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets-debug.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets-release.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\FindDirectX.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\FindPkgMacros.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\PrecompiledHeader.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\cmake_uninstall.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake\HunterGate.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\include\assimp\config.h.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp -BD:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build --check-stamp-file D:/VsprojectsOnD/Open3D/Open3D/build/assimp/src/ext_assimp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\3.20.2\CMakeSystem.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp-config-version.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp-config.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimp.pc.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets-debug.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets-release.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\assimpTargets.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\FindDirectX.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\FindPkgMacros.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\PrecompiledHeader.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake-modules\cmake_uninstall.cmake.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\cmake\HunterGate.cmake;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\include\assimp\config.h.in;D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\VsprojectsOnD\Open3D\Open3D\build\assimp\src\ext_assimp-build\ZERO_CHECK.vcxproj">
+      <Project>{167E411E-A85F-36A9-BE83-F1B889918324}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

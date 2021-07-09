@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_win_intel64_20191018_general.zip'
+tag='MD5=879741a7946b814455eee6c6ffde2984'

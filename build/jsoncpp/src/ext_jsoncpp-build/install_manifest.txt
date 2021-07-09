@@ -1,0 +1,15 @@
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/lib/pkgconfig/jsoncpp.pc
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/lib/cmake/jsoncpp/jsoncppConfig.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/lib/cmake/jsoncpp/jsoncppConfig-release.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/lib/cmake/jsoncpp/jsoncppConfigVersion.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/lib/jsoncpp.lib
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/allocator.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/assertions.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/config.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/forwards.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/json.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/json_features.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/reader.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/value.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/version.h
+D:/VsprojectsOnD/Open3D/Open3D/build/jsoncpp/include/json/writer.h

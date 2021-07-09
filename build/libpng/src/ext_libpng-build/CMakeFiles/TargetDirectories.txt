@@ -1,0 +1,10 @@
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/gensym.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/symbol-check.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/genvers.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/genprebuilt.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/INSTALL.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/RUN_TESTS.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/genfiles.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/png_static.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/ALL_BUILD.dir
+D:/VsprojectsOnD/Open3D/Open3D/build/libpng/src/ext_libpng-build/CMakeFiles/ZERO_CHECK.dir

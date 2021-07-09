@@ -1,0 +1,10 @@
+prefix=D:/VsprojectsOnD/Open3D/Open3D/build/libjpeg-turbo-install
+exec_prefix=D:/VsprojectsOnD/Open3D/Open3D/build/libjpeg-turbo-install
+libdir=D:/VsprojectsOnD/Open3D/Open3D/build/libjpeg-turbo-install/lib
+includedir=D:/VsprojectsOnD/Open3D/Open3D/build/libjpeg-turbo-install/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 2.0.3
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

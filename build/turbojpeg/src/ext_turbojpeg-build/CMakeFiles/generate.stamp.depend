@@ -1,0 +1,36 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/CMakeLists.txt
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/cmakescripts/BuildPackages.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/cmakescripts/GNUInstallDirs.cmake
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/cmakescripts/cmake_uninstall.cmake.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/jconfigint.h.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/release/installer.nsi.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/release/libjpeg.pc.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/release/libturbojpeg.pc.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/release/maketarball.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/tjbenchtest.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/tjexampletest.in
+D:/VsprojectsOnD/Open3D/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo/win/jconfig.h.in
+D:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build/CMakeFiles/3.20.2/CMakeCCompiler.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build/CMakeFiles/3.20.2/CMakeRCCompiler.cmake
+D:/VsprojectsOnD/Open3D/Open3D/build/turbojpeg/src/ext_turbojpeg-build/CMakeFiles/3.20.2/CMakeSystem.cmake

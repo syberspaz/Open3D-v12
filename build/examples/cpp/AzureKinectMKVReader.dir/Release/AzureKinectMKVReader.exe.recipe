@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\open3d_downloads</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_filament</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\GuiResources</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_assimp</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_ippicv</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_jsoncpp</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_k4a</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_zlib</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_libpng</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_mkl</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_mkl_include</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_tbb</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ext_turbojpeg</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\bin\Release\EncodeShader.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\x64\Release\ShaderFileTarget</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VsprojectsOnD\Open3D\Open3D\build\bin\examples\Release\AzureKinectMKVReader.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

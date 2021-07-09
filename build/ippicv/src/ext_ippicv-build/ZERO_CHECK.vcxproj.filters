@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\ippicv\src\ext_ippicv-build\CMakeFiles\464f279359a56a6b266ddd42e8c29ec7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D44D40DB-6B3E-3A09-9150-326AD9075D55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

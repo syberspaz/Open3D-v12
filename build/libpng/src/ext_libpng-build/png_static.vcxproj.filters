@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngget.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngpread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngrio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngrtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngrutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngwio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngwtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngwutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\pnglibconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngpriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pnginfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\pngstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng-build\pngprefix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VsprojectsOnD\Open3D\Open3D\build\libpng\src\ext_libpng\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DC49DCAB-A2AB-35A3-B17F-61E81162BDE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9B817FCD-DCD1-372A-9754-9E2045975C89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{070D5684-5ACE-34A3-9664-0C91C86A6270}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
